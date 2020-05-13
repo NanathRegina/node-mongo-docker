@@ -16,7 +16,8 @@ server.use(cors())
 
 //ODM - mapeamento objeto x documento
 const Client = restful.model('Client', {
-    name:{type: String, required: true}
+    name:{type: String, required: true},
+    age:{type: String, required: true}
 })
 
 //API REST
